@@ -58,3 +58,6 @@
 .site-header__button:hover {
   opacity: 0.7;
 }
+.site-header__button:hover {
+    transform: scale(0.95);
+}
