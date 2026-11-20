@@ -144,3 +144,6 @@
   font-size: 14px;
   color: #8a7560;
 }
+.site-header__button:hover {
+    background-color: red;
+}
