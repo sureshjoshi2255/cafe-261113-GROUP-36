@@ -147,3 +147,7 @@
 .site-header__button:hover {
     background-color: red;
 }
+.menu__button:hover {
+  background: #3b2a20;
+  color: #fff;
+}
