@@ -160,3 +160,6 @@
   color: #b5651d;
   font-weight: bold;
 }
+.site-header__button:hover {
+    transform: scale(0.95);
+}
