@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/footer.css">
 </head>
+
 <body>
   <!-- ===== A ヘッダー ここから ===== -->
   <div class="notice-bar">
@@ -59,20 +61,63 @@
       </li>
     </ul>
   </main>
+  <section class="access" id="access">
+    <h2 class="access__title">アクセス</h2>
+    <table class="access__table">
+      <tr><th class="access__head">住所</th><td class="access__data">東京都まちかど市1-2-3</td></tr>
+      <tr><th class="access__head">営業時間</th><td class="access__data">8:00〜20:00</td></tr>
+      <tr><th class="access__head">定休日</th><td class="access__data">水曜日</td></tr>
+    </table>
+  </section>
+  <section class="point">
+    <h2 class="point__title">まちかどカフェの3つのこだわり</h2>
+    <ul class="point__list">
+      <li class="point__item">毎朝、お店で豆を焙煎</li>
+      <li class="point__item">牛乳は近くの牧場から</li>
+      <li class="point__item">ケーキは全部手づくり</li>
+    </ul>
+  </section>
+  <section class="news">
+    <h2 class="news__title">お知らせ</h2>
+    <ul class="news__list">
+      <li class="news__item"><span class="news__date">2026.11.10</span>冬のチョコレートラテをはじめました。</li>
+      <li class="news__item"><span class="news__date">2026.11.01</span>年末年始の営業時間のお知らせ</li>
+    </ul>
+  </section>
+
 
   <!-- ===== B メイン ここまで ===== -->
 
   <!-- ===== C フッター ここから ===== -->
-  <footer class="site-footer">
+   <footer class="site-footer">
     <p class="site-footer__name">まちかどカフェ</p>
+        <ul class="footer-nav">
+      <li><a class="footer-nav__link" href="#">トップへ</a></li>
+      <li><a class="footer-nav__link" href="#contact">お問い合わせ</a></li>
+    </ul>
+
     <ul class="site-footer__info">
-      <li>営業時間　8:00〜20:00</li>
-      <li>定休日　水曜日</li>
+      <li>営業時間8:00〜20:00</li>
+      <li>定休日水曜日</li>
+    </ul>
+     <ul class="sns">
+      <li><a class="sns__link" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+      <li><a class="sns__link" href="https://x.com/" target="_blank">X</a></li>
     </ul>
     <a class="site-footer__link" href="#">お問い合わせ</a>
     <p class="site-footer__copy">© 2026 まちかどカフェ</p>
   </footer>
-
+    <section class="contact" id="contact">
+    <h2 class="contact__title">お問い合わせ</h2>
+    <form class="contact__form">
+      <label class="contact__label" for="name">お名前</label>
+      <input class="contact__input" type="text" id="name" name="name">
+      <label class="contact__label" for="message">ご用件</label>
+      <textarea class="contact__input" id="message" name="message" rows="4"></textarea>
+      <button class="contact__button" type="submit">送信する</button>
+    </form>
+  </section>
   <!-- ===== C フッター ここまで ===== -->
 </body>
+
 </html>
