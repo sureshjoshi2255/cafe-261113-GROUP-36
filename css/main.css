@@ -145,7 +145,7 @@
   color: #8a7560;
 }
 .site-header__button:hover {
-    background-color: red;
+    background-color: rgb(63, 6, 6);
 }
 .menu__button:hover {
   background: #3b2a20;
