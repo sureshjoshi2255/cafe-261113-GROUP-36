@@ -96,13 +96,18 @@
   <!-- ===== B メイン ここまで ===== -->
 
   <!-- ===== C フッター ここから ===== -->
+   <section class="contact" id="contact">
+    <h2 class="contact__title">お問い合わせ</h2>
+    <form class="contact__form">
+      <label class="contact__label" for="name">お名前</label>
+      <input class="contact__input" type="text" id="name" name="name">
+      <label class="contact__label" for="message">ご用件</label>
+      <textarea class="contact__input" id="message" name="message" rows="4"></textarea>
+      <button class="contact__button" type="submit">送信する</button>
+    </form>
+  </section>
    <footer class="site-footer">
     <p class="site-footer__name">まちかどカフェ</p>
-        <ul class="footer-nav">
-      <li><a class="footer-nav__link" href="#">トップへ</a></li>
-      <li><a class="footer-nav__link" href="#contact">お問い合わせ</a></li>
-    </ul>
-
     <ul class="site-footer__info">
       <li>営業時間8:00〜20:00</li>
       <li>定休日水曜日</li>
@@ -114,17 +119,17 @@
     <a class="site-footer__link" href="#">お問い合わせ</a>
     <p class="site-footer__copy">© 2026 まちかどカフェ</p>
   </footer>
-    <section class="contact" id="contact">
-    <h2 class="contact__title">お問い合わせ</h2>
-    <form class="contact__form">
-      <label class="contact__label" for="name">お名前</label>
-      <input class="contact__input" type="text" id="name" name="name">
-      <label class="contact__label" for="message">ご用件</label>
-      <textarea class="contact__input" id="message" name="message" rows="4"></textarea>
-      <button class="contact__button" type="submit">送信する</button>
-    </form>
-  </section>
-  <!-- ===== C フッター ここまで ===== -->
+
+    <ul class="sns">
+      <li><a class="sns__link" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+      <li><a class="sns__link" href="https://x.com/" target="_blank">X</a></li>
+    </ul>
+      <ul class="footer-nav">
+      <li><a class="footer-nav__link" href="#">トップへ</a></li>
+      <li><a class="footer-nav__link" href="#contact">お問い合わせ</a></li>
+    </ul>
+   
+   <!-- ===== C フッター ここまで ===== -->
 </body>
 
 </html>
