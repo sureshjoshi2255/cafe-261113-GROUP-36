@@ -151,3 +151,15 @@
   background: #3b2a20;
   color: #fff;
 }
+.access__map {
+  margin: 16px 0 0;
+  text-align: center;
+}
+
+.access__link {
+  color: #b5651d;
+  font-weight: bold;
+}
+.site-header__button:hover {
+    transform: scale(0.95);
+}
